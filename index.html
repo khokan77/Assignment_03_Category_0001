@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>B11-A3-Living-Lab</title>
+    <title>PET-SHOP</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
       rel="stylesheet"
@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/8e1eeda03b.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
       .adlam-font {
         font-family: "ADLaM Display", serif;
@@ -26,9 +30,58 @@
       }
     </style>
   </head>
-  <body>
-    <header>
-      <h2>Hello World</h2>
+  <body class="bg-[#FFF9F4]">
+    <header class="lg:ml-32 lg:mr-32 sm:border-gray-300 border-2 sm:border-0">
+      <!-- nav bar -->
+      <nav class="h-24 py-4">
+        <div class="navbar sora-font">
+          <div class="navbar-start">
+            <img src="images/logo-header.png" alt="" />
+            <a class="btn btn-ghost text-xl hidden sm:block">Browse4Pets</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Find a pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <div class="hidden sm:block">
+              <i class="fa-regular fa-bell mr-1"></i>
+              <i class="fa-solid fa-magnifying-glass mr-1"></i>
+              <a class="btn btn-outline btn-warning">Login</a>
+              <a class="btn btn-warning">Registration</a>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              >
+                <li><a>Find a pet</a></li>
+                <li><a>Breeds</a></li>
+                <li><a>Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer></footer>
