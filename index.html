@@ -550,14 +550,20 @@
         </div>
       </section>
       <!-- News -->
-      <section class="mt-4 lg:ml-32 lg:mr-32 bg-[#FFF9F4]">
-        <!-- left side -->
-        <div class="rounded-md flex justify-center items-center">
-          <div class="w-[342px] mt-4">
+      <section class="mt-4 lg:ml-32 lg:mr-32 m-8 bg-[#FFF9F4] rounded-lg">
+        <div class="rounded-md sm:flex justify-center items-center">
+          <!-- image -->
+          <div class="mt-4">
             <img src="images/cute-pet-mid.png" alt="" />
           </div>
-          <div class="card w-full max-w-sm">
-            <h2 class="text-left adlam-font text-4xl">Get Pawsome News!</h2>
+          <!-- text -->
+          <div class="m-4">
+            <h2 class="text-center adlam-font sm:text-4xl text-2xl">
+              Get Pawsome News!
+            </h2>
+            <p class="sora-font mt-6 text-center">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
             <div class="form-control mt-6">
               <input
                 type="email"
@@ -566,12 +572,15 @@
                 required
               />
             </div>
-            <div class="mt-6 sora-font text-2xl">
+            <div
+              class="mt-6 sora-font sm:text-2xl text-xl sm:text-left text-center"
+            >
               <button class="btn btn-warning">Subscribe</button>
             </div>
           </div>
         </div>
       </section>
+      <!-- footer -->
     </header>
     <main></main>
     <footer></footer>
