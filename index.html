@@ -36,7 +36,7 @@
       <section
         class="w-full bg-cover bg-center bg-[#FFF9F4] border-2 sm:border-0"
       >
-        <div class="w-[90%] mx-auto sora-font h-24 sm:border-gray-300">
+        <div class="max-w-[1320px] mx-auto sora-font h-24 sm:border-gray-300">
           <div class="navbar">
             <div class="navbar-start">
               <img src="images/logo-header.png" alt="" />
@@ -82,15 +82,21 @@
         </div>
       </section>
       <!-- banner -->
-      <section class="w-[90%] mx-auto">
+      <section class="max-w-[1320px] mx-auto p-4">
         <!-- text -->
         <div class="relative">
           <div class="sm:absolute top-24">
             <h2 class="text-4xl adlam-font mt-4">
               Pamper Your Pet, <br />
               Because They Deserve <br />
-              the Bes
+              the Best
             </h2>
+            <!-- Animated Button -->
+            <button
+              class="mt-6 px-6 py-3 text-white bg-[#FFDC26] rounded-full text-lg font-semibold shadow-lg animate-bounce hover:animate-none transition"
+            >
+              Click Me
+            </button>
             <p class="font-sora text-xl mt-4">
               Discover a world of treats, toys, and essentials handpicked for
               <br />
@@ -104,8 +110,37 @@
           <img src="images/cat-big.png" alt="" />
         </div>
       </section>
+
+      <section class="bg-gray-100 py-12">
+        <div
+          class="max-w-[1320px] mx-auto px-6 flex flex-col md:flex-row items-center gap-8"
+        >
+          <!-- Pet Image -->
+          <div class="w-full md:w-1/2">
+            <img
+              src="images/loving dog.png"
+              alt="Cute Pet"
+              class="w-full h-auto rounded-lg shadow-lg"
+            />
+          </div>
+
+          <!-- Pet Content -->
+          <div class="w-full md:w-1/2 text-center md:text-left adlam-font">
+            <h2 class="text-3xl text-gray-800">Adopt a Loving Pet</h2>
+            <p class="mt-4 text-gray-400">
+              Bring joy into your home with a furry friend! Pets provide
+              companionship, happiness, and unconditional love. Explore
+              different breeds and find the perfect pet for your family.
+            </p>
+            <button class="mt-6 btn btn-warning hover:bg-yellow-600 transition">
+              Adopt Now
+            </button>
+          </div>
+        </div>
+      </section>
+
       <!-- categories -->
-      <section class="w-[90%] mx-auto mt-4 adlam-font">
+      <section class="max-w-[1320px] mx-auto mt-4 adlam-font p-4">
         <h2 class="text-2xl mt-2 mb-4">Browse By Categories</h2>
         <div class="grid sm:grid-cols-6 grid-cols-2 gap-2">
           <div
@@ -119,8 +154,8 @@
             </div>
 
             <!-- Text Content -->
-            <p class="text-xl font-semibold text-gray-700 mt-2">Dog</p>
-            <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
+            <p class="text-xl text-gray-700 mt-2">Dog</p>
+            <p class="text-sm text-gray-700 mt-2">3 items</p>
           </div>
           <div
             class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
@@ -129,12 +164,16 @@
             <div
               class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
             >
-              <img src="images/dog-cartoon.png" alt="Profile" class="w-8 h-8" />
+              <img
+                src="images/fish-cartoon.png"
+                alt="Profile"
+                class="w-8 h-8"
+              />
             </div>
 
             <!-- Text Content -->
-            <p class="text-xl font-semibold text-gray-700 mt-2">Dog</p>
-            <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
+            <p class="text-xl text-gray-700 mt-2">Fish</p>
+            <p class="text-sm text-gray-700 mt-2">3 items</p>
           </div>
           <div
             class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
@@ -143,12 +182,12 @@
             <div
               class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
             >
-              <img src="images/dog-cartoon.png" alt="Profile" class="w-8 h-8" />
+              <img src="images/cat-cartoon.png" alt="Profile" class="w-8 h-8" />
             </div>
 
             <!-- Text Content -->
-            <p class="text-xl font-semibold text-gray-700 mt-2">Dog</p>
-            <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
+            <p class="text-xl text-gray-700 mt-2">Cat</p>
+            <p class="text-sm text-gray-700 mt-2">3 items</p>
           </div>
           <div
             class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
@@ -157,12 +196,16 @@
             <div
               class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
             >
-              <img src="images/dog-cartoon.png" alt="Profile" class="w-8 h-8" />
+              <img
+                src="images/bird-cartoon.png"
+                alt="Profile"
+                class="w-8 h-8"
+              />
             </div>
 
             <!-- Text Content -->
-            <p class="text-xl font-semibold text-gray-700 mt-2">Dog</p>
-            <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
+            <p class="text-xl text-gray-700 mt-2">Birds</p>
+            <p class="text-sm text-gray-700 mt-2">3 items</p>
           </div>
           <div
             class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
@@ -171,12 +214,16 @@
             <div
               class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
             >
-              <img src="images/dog-cartoon.png" alt="Profile" class="w-8 h-8" />
+              <img
+                src="images/mouse-cartoon.png"
+                alt="Profile"
+                class="w-8 h-8"
+              />
             </div>
 
             <!-- Text Content -->
-            <p class="text-xl font-semibold text-gray-700 mt-2">Dog</p>
-            <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
+            <p class="text-xl text-gray-700 mt-2">Small pet</p>
+            <p class="text-sm text-gray-700 mt-2">3 items</p>
           </div>
           <div
             class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
@@ -185,18 +232,22 @@
             <div
               class="w-16 h-16 bg-white rounded-full flex items-center justify-center"
             >
-              <img src="images/dog-cartoon.png" alt="Profile" class="w-8 h-8" />
+              <img
+                src="images/rabbit-cartoon.png"
+                alt="Profile"
+                class="w-8 h-8"
+              />
             </div>
 
             <!-- Text Content -->
-            <p class="text-xl font-semibold text-gray-700 mt-2">Dog</p>
-            <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
+            <p class="text-xl text-gray-700 mt-2">Rabit</p>
+            <p class="text-sm text-gray-700 mt-2">3 items</p>
           </div>
         </div>
       </section>
       <!-- Trending -->
       <section class="bg-[#FFF9F4]">
-        <div class="w-[90%] mx-auto mt-4 adlam-font pl-3">
+        <div class="max-w-[1320px] mx-auto mt-4 adlam-font p-4">
           <h2 class="text-2xl mt-2 mb-4">Trending Pet Products</h2>
           <div class="sm:flex gap-2">
             <!-- left card -->
@@ -210,8 +261,8 @@
                     T shirt for dogs
                   </p>
                   <p class="text-sm font-semibold text-gray-500">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eligendi, vel?
+                    Dress your pup in style with the pawfect T-shirt! Whether
+                    they’re living their best fur-ever life.
                   </p>
                   <button class="w-32 btn text-black bg-white">Shop Now</button>
                 </div>
@@ -271,7 +322,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/fish-cartoon.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -304,7 +355,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/bird-cartoon.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -337,7 +388,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/rabbit-cartoon.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -370,7 +421,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/bird-cartoon.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -403,7 +454,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/pet-couch.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -436,7 +487,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/fish-cartoon.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -469,7 +520,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/pet-couch.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -502,7 +553,7 @@
                   class="w-20 h-20 bg-[#FFF9F4] rounded-xl flex items-center justify-center ml-3"
                 >
                   <img
-                    src="images/dog-cartoon.png"
+                    src="images/rabbit-cartoon.png"
                     alt="Profile"
                     class="w-8 h-8"
                   />
@@ -532,40 +583,44 @@
         </div>
       </section>
       <!-- Everyday -->
-      <section class="mt-4 w-[90%] mx-auto">
+      <section class="mt-4 max-w-[1320px] mx-auto p-4">
         <div class="sm:flex sm:items-center gap-4 adlam-font">
           <!-- left side -->
           <div
-            class="sm:w-[784px] sm:h-[480px] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md sm:flex justify-end"
+            class="sm:w-[784px] sm:h-[480px] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md sm:flex justify-end adlam-font"
           >
             <div class="sm:w-[342px] h-full pt-10 ml-8">
-              <p>Under Price</p>
-              <h2>Pet Grooming Mitt</h2>
-              <p>(Easy Hair Removal)</p>
-              <h2>$7.99</h2>
+              <p class="hidden sm:block text-size-5">Under Price</p>
+              <h2 class="text-3xl font-bold">Pet Grooming Mitt</h2>
+              <p class="hidden sm:block text-white text-xl">
+                (Easy Hair Removal)
+              </p>
+              <h2 class="sm:text-8xl text-6xl text-white sm:text-black">
+                $7.99
+              </h2>
             </div>
-            <div class="w-[342px]">
+            <div class="sm:w-[342px] flex justify-end">
               <img src="images/cute-dog-mid.png" alt="" />
             </div>
           </div>
           <!-- right side -->
           <div
-            class="sm:w-[512px] sm:h-[480px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-md flex justify-end"
+            class="sm:relative sm:w-[512px] sm:h-[480px] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-md flex"
           >
             <div class="pl-6 pt-10">
-              <h2>T-Shirt for Dogs</h2>
-              <p>$7.99</p>
+              <h2 class="text-2xl font-bold">T-Shirt for Dogs</h2>
+              <p class="sm:text-8xl text-6xl text-yellow-400">$7.99</p>
             </div>
-            <div class="w-[312px] h-full">
+            <div class="sm:absolute w-[312px] left-44 top-24">
               <img src="images/cute-pet-mid.png" alt="" />
             </div>
           </div>
         </div>
       </section>
       <!-- News -->
-      <div class="relative w-[90%] mx-auto">
+      <div class="relative max-w-[90%] mx-auto">
         <section
-          class="absolute w-[90%] mx-auto top-11 left-8 mt-4 bg-[#FFF9F4] rounded-lg"
+          class="absolute sm:w-[1320px] mx-auto top-11 left-7 mt-4 bg-[#FFF9F4] rounded-lg"
         >
           <div class="rounded-md sm:flex justify-center items-center">
             <!-- image -->
@@ -573,7 +628,7 @@
               <img src="images/cute-pet-mid.png" alt="" />
             </div>
             <!-- text -->
-            <div class="m-4">
+            <div class="ml-4">
               <h2
                 class="text-center sm:text-left adlam-font sm:text-4xl text-2xl"
               >
@@ -601,7 +656,7 @@
       </div>
 
       <!-- footer -->
-      <section class="mt-72 bg-[#FFDC2680] h-[780px]">
+      <section class="mt-72 bg-[#FFDC2680] sm:h-[780px] h-[800px] sora-font">
         <!-- top side -->
         <div class="h-1/2"></div>
         <!-- bottom side -->
@@ -611,26 +666,28 @@
           <!-- left side -->
           <div class="">
             <img src="images/logo-footer.png" alt="" />
-            <p>
+            <p class="mt-5">
               Discover a world of treats, toys, and <br />
               essentials handpicked for your furry friends
             </p>
           </div>
           <!-- middle side -->
-          <div class="">
-            <ul>
+          <div>
+            <ul class="flex flex-col gap-3">
               <li>Find a pet</li>
               <li>Breed</li>
               <li>Contact Us</li>
             </ul>
           </div>
           <!-- right side -->
-          <div class="">
+          <div class="sm:mt-4">
             <p>follow us</p>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-youtube"></i>
+            <div class="flex gap-4 mt-2">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
           </div>
         </div>
       </section>
