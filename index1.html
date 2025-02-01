@@ -7,23 +7,54 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="">
-    <div class="">
-      <!-- Section 1: Full-width background but margin inside -->
-      <div class="bg-blue-500 text-white">
-        <div class="m-6 p-6">
-          <h2 class="text-xl font-bold">Full-width Background</h2>
-          <p>
-            This section's background stretches across the entire width, but the
-            content has margin.
-          </p>
+    <!-- Navbar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="flex justify-between items-center">
+        <!-- Logo -->
+        <h1 class="text-white text-lg font-bold">My Website</h1>
+
+        <!-- Hamburger Menu (Visible on Mobile, Hidden on Desktop) -->
+        <button class="block lg:hidden text-white focus:outline-none">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16m-7 6h7"
+            ></path>
+          </svg>
+        </button>
+
+        <!-- Desktop Menu (Hidden on Mobile, Shown on Large Screens) -->
+        <ul class="hidden lg:flex space-x-6 text-white">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Full-Width Background Section -->
+    <section class="w-full bg-cover bg-center py-16 bg-lime-300">
+      <div class="max-w-[90%] md:max-w-[800px] mx-auto">
+        <h2 class="text-2xl font-bold">Full Width Background</h2>
+        <p>This content stays within the same margins on all devices.</p>
+      </div>
+    </section>
+    <section>
+      <div class="mt-5">
+        <div class="max-w-[90%] md:max-w-[800px] mx-auto bg-gray-500">
+          <h2 class="text-2xl font-bold">Full Width Background</h2>
+          <p>This content stays within the same margins on all devices.</p>
         </div>
       </div>
-
-      <!-- Section 2: Background only on the section with margin -->
-      <div class="m-6 p-6 bg-gray-300 text-black rounded-lg">
-        <h2 class="text-xl font-bold">Boxed Background</h2>
-        <p>This section's background is limited within the margin.</p>
-      </div>
-    </div>
+    </section>
   </body>
 </html>

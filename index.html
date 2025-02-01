@@ -33,14 +33,16 @@
   <body class="">
     <header>
       <!-- nav bar -->
-      <section class="bg-[#FFF9F4]">
-        <div
-          class="lg:ml-32 lg:mr-32 sora-font h-24 sm:border-gray-300 border-2 sm:border-0"
-        >
+      <section
+        class="w-full bg-cover bg-center bg-[#FFF9F4] border-2 sm:border-0"
+      >
+        <div class="w-[90%] mx-auto sora-font h-24 sm:border-gray-300">
           <div class="navbar">
             <div class="navbar-start">
               <img src="images/logo-header.png" alt="" />
-              <a class="btn btn-ghost text-xl hidden sm:block">Browse4Pets</a>
+              <a class="btn btn-ghost text-xl hidden sm:block mt-2"
+                >Browse<span class="text-yellow-300">4</span>Pets</a
+              >
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -56,42 +58,35 @@
                 <a class="btn btn-outline btn-warning">Login</a>
                 <a class="btn btn-warning">Registration</a>
               </div>
-              <div class="dropdown lg:hidden">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div>
+                <button class="block lg:hidden text-black focus:outline-none">
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    class="w-6 h-6"
                     fill="none"
-                    viewBox="0 0 24 24"
                     stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16"
-                    />
+                      d="M4 6h16M4 12h16m-7 6h7"
+                    ></path>
                   </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow"
-                >
-                  <li><a>Find a pet</a></li>
-                  <li><a>Breeds</a></li>
-                  <li><a>Contact us</a></li>
-                </ul>
+                </button>
               </div>
+              <!-- Hamburger Menu (Visible on Mobile, Hidden on Desktop) -->
             </div>
           </div>
         </div>
       </section>
       <!-- banner -->
-      <section class="lg:ml-32 lg:mr-32">
+      <section class="w-[90%] mx-auto">
         <!-- text -->
         <div class="relative">
           <div class="sm:absolute top-24">
-            <h2 class="text-4xl adlam-font">
+            <h2 class="text-4xl adlam-font mt-4">
               Pamper Your Pet, <br />
               Because They Deserve <br />
               the Bes
@@ -110,11 +105,11 @@
         </div>
       </section>
       <!-- categories -->
-      <section class="lg:ml-32 lg:mr-32 mt-4 adlam-font">
-        <h2 class="text-2xl mt-2 mb-4 ml-5">Browse By Categories</h2>
-        <div class="grid sm:grid-cols-6 grid-cols-2 ml-5 gap-2">
+      <section class="w-[90%] mx-auto mt-4 adlam-font">
+        <h2 class="text-2xl mt-2 mb-4">Browse By Categories</h2>
+        <div class="grid sm:grid-cols-6 grid-cols-2 gap-2">
           <div
-            class="w-[200px] h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
+            class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
           >
             <!-- Rounded Image -->
             <div
@@ -128,7 +123,7 @@
             <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
           </div>
           <div
-            class="w-[200px] h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
+            class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
           >
             <!-- Rounded Image -->
             <div
@@ -142,7 +137,7 @@
             <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
           </div>
           <div
-            class="w-[200px] h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
+            class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
           >
             <!-- Rounded Image -->
             <div
@@ -156,7 +151,7 @@
             <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
           </div>
           <div
-            class="w-[200px] h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
+            class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
           >
             <!-- Rounded Image -->
             <div
@@ -170,7 +165,7 @@
             <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
           </div>
           <div
-            class="w-[200px] h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
+            class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
           >
             <!-- Rounded Image -->
             <div
@@ -184,7 +179,7 @@
             <p class="text-sm font-semibold text-gray-700 mt-2">3 items</p>
           </div>
           <div
-            class="w-[200px] h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
+            class="sm:w-[200px] sm:h-[250px] bg-yellow-300 shadow-lg rounded-lg flex flex-col items-center justify-center p-2"
           >
             <!-- Rounded Image -->
             <div
@@ -201,13 +196,13 @@
       </section>
       <!-- Trending -->
       <section class="bg-[#FFF9F4]">
-        <div class="lg:ml-32 lg:mr-32 mt-4 adlam-font ml-5 pl-3">
+        <div class="w-[90%] mx-auto mt-4 adlam-font pl-3">
           <h2 class="text-2xl mt-2 mb-4">Trending Pet Products</h2>
-          <div class="sm:flex w-[93%] gap-2">
+          <div class="sm:flex gap-2">
             <!-- left card -->
             <div class="sora-font">
               <div
-                class="w-[480px] h-[400px] bg-[#F9DF8A] shadow-lg rounded-lg items-left justify-center p-2"
+                class="sm:w-[480px] h-[400px] bg-[#F9DF8A] shadow-lg rounded-lg items-left justify-center p-2"
               >
                 <!-- Text Content -->
                 <div class="flex flex-col gap-5 mt-5 ml-5">
@@ -537,13 +532,13 @@
         </div>
       </section>
       <!-- Everyday -->
-      <section class="mt-4">
-        <div class="sm:flex sm:items-center sm:justify-center gap-4 adlam-font">
+      <section class="mt-4 w-[90%] mx-auto">
+        <div class="sm:flex sm:items-center gap-4 adlam-font">
           <!-- left side -->
           <div
-            class="sm:w-[784px] sm:h-[480px] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md flex justify-end"
+            class="sm:w-[784px] sm:h-[480px] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md sm:flex justify-end"
           >
-            <div class="w-[342px] h-full pl-6 pt-10">
+            <div class="sm:w-[342px] h-full pt-10 ml-8">
               <p>Under Price</p>
               <h2>Pet Grooming Mitt</h2>
               <p>(Easy Hair Removal)</p>
@@ -568,9 +563,9 @@
         </div>
       </section>
       <!-- News -->
-      <div class="relative">
+      <div class="relative w-[90%] mx-auto">
         <section
-          class="absolute top-4 left-8 mt-4 w-[80%] lg:ml-32 lg:mr-32 bg-[#FFF9F4] rounded-lg"
+          class="absolute w-[90%] mx-auto top-11 left-8 mt-4 bg-[#FFF9F4] rounded-lg"
         >
           <div class="rounded-md sm:flex justify-center items-center">
             <!-- image -->
